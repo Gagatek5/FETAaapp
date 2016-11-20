@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7A51117DD4A1EA7769C5FBD6C1FA2C4B4E041984",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C9B5D463D80992A5F91AF9298D8EC2852B6127F0" : 9223372036854775807,
+    "7A51117DD4A1EA7769C5FBD6C1FA2C4B4E041984" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A3541F0B-D2B4-4E6B-95CC-02294525E3DE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C9B5D463D80992A5F91AF9298D8EC2852B6127F0" : "",
+    "7A51117DD4A1EA7769C5FBD6C1FA2C4B4E041984" : "FETAapp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FETAapp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FETAapp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/bitbucket.org\/letscode2016\/gda_salka_black.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7A51117DD4A1EA7769C5FBD6C1FA2C4B4E041984"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/letscode2016\/gda_salka_black.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C9B5D463D80992A5F91AF9298D8EC2852B6127F0"
+    }
+  ]
+}

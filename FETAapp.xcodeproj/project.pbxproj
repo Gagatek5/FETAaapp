@@ -26,6 +26,12 @@
 		2B1115B01DE0D0EE0015C9CA /* sss.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115AF1DE0D0EE0015C9CA /* sss.png */; };
 		2B1115B21DE0F9470015C9CA /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1115B11DE0F9470015C9CA /* DB.swift */; };
 		2B1115B41DE1309F0015C9CA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1115B31DE1309F0015C9CA /* DetailViewController.swift */; };
+		2B1115BB1DE14A480015C9CA /* Image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115B51DE14A480015C9CA /* Image1.jpg */; };
+		2B1115BC1DE14A480015C9CA /* Image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115B61DE14A480015C9CA /* Image2.jpg */; };
+		2B1115BD1DE14A480015C9CA /* Image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115B71DE14A480015C9CA /* Image3.jpg */; };
+		2B1115BE1DE14A480015C9CA /* Image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115B81DE14A480015C9CA /* Image4.jpg */; };
+		2B1115BF1DE14A480015C9CA /* Image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115B91DE14A480015C9CA /* Image5.jpg */; };
+		2B1115C01DE14A480015C9CA /* Image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115BA1DE14A480015C9CA /* Image6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +77,12 @@
 		2B1115AF1DE0D0EE0015C9CA /* sss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sss.png; sourceTree = "<group>"; };
 		2B1115B11DE0F9470015C9CA /* DB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
 		2B1115B31DE1309F0015C9CA /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2B1115B51DE14A480015C9CA /* Image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image1.jpg; sourceTree = "<group>"; };
+		2B1115B61DE14A480015C9CA /* Image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image2.jpg; sourceTree = "<group>"; };
+		2B1115B71DE14A480015C9CA /* Image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image3.jpg; sourceTree = "<group>"; };
+		2B1115B81DE14A480015C9CA /* Image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image4.jpg; sourceTree = "<group>"; };
+		2B1115B91DE14A480015C9CA /* Image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image5.jpg; sourceTree = "<group>"; };
+		2B1115BA1DE14A480015C9CA /* Image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +177,12 @@
 				2B11159F1DE0B7DC0015C9CA /* main-qimg-a9e09e7b54c9bba55f4ae4a95ba7a764.png */,
 				2B1115991DE0B7CA0015C9CA /* 465628_about_256x256.png */,
 				2B1115AF1DE0D0EE0015C9CA /* sss.png */,
+				2B1115B51DE14A480015C9CA /* Image1.jpg */,
+				2B1115B61DE14A480015C9CA /* Image2.jpg */,
+				2B1115B71DE14A480015C9CA /* Image3.jpg */,
+				2B1115B81DE14A480015C9CA /* Image4.jpg */,
+				2B1115B91DE14A480015C9CA /* Image5.jpg */,
+				2B1115BA1DE14A480015C9CA /* Image6.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -281,8 +299,14 @@
 				2B1115A41DE0B8E90015C9CA /* Map-512.png in Resources */,
 				2B1115731DE0B67E0015C9CA /* LaunchScreen.storyboard in Resources */,
 				2B11159A1DE0B7CA0015C9CA /* 465628_about_256x256.png in Resources */,
+				2B1115BB1DE14A480015C9CA /* Image1.jpg in Resources */,
+				2B1115BC1DE14A480015C9CA /* Image2.jpg in Resources */,
+				2B1115BF1DE14A480015C9CA /* Image5.jpg in Resources */,
+				2B1115BD1DE14A480015C9CA /* Image3.jpg in Resources */,
 				2B1115701DE0B67E0015C9CA /* Assets.xcassets in Resources */,
+				2B1115C01DE14A480015C9CA /* Image6.jpg in Resources */,
 				2B11156B1DE0B67E0015C9CA /* Main.storyboard in Resources */,
+				2B1115BE1DE14A480015C9CA /* Image4.jpg in Resources */,
 				2B11159C1DE0B7D00015C9CA /* gallery_2-128.png in Resources */,
 				2B1115A01DE0B7DC0015C9CA /* main-qimg-a9e09e7b54c9bba55f4ae4a95ba7a764.png in Resources */,
 			);
@@ -559,6 +583,7 @@
 				2B11158F1DE0B67E0015C9CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B1115901DE0B67E0015C9CA /* Build configuration list for PBXNativeTarget "FETAappTests" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +592,7 @@
 				2B1115921DE0B67E0015C9CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B1115931DE0B67E0015C9CA /* Build configuration list for PBXNativeTarget "FETAappUITests" */ = {
 			isa = XCConfigurationList;
@@ -575,6 +601,7 @@
 				2B1115951DE0B67E0015C9CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

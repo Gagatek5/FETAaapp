@@ -9,7 +9,7 @@
         <!--Galeria-->
         <scene sceneID="Bg7-aN-lPT">
             <objects>
-                <viewController id="Vef-5c-A4d" sceneMemberID="viewController">
+                <viewController id="Vef-5c-A4d" customClass="GalleryViewController" customModule="FETAapp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9St-4x-uqO"/>
                         <viewControllerLayoutGuide type="bottom" id="gSI-vE-nIL"/>
@@ -18,25 +18,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqe-Y4-5Bl">
-                                <frame key="frameInset" minX="166" minY="231" width="10" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sss.png" translatesAutoresizingMaskIntoConstraints="NO" id="bli-D8-Prc">
+                                <frame key="frameInset" minX="48" minY="20" width="278" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Xk-lf-l8J">
+                                <frame key="frameInset" minX="16" minY="203" width="343" height="218"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zIV-NM-R3L">
+                                <frame key="frameInset" minX="166" minY="155" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sss.png" translatesAutoresizingMaskIntoConstraints="NO" id="bli-D8-Prc">
-                                <frame key="frameInset" minX="48" minY="20" width="278" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="kwk-B9-5M1" appends="YES" id="qhi-lM-v8S"/>
+                            <outletCollection property="gestureRecognizers" destination="X1C-cw-kHM" appends="YES" id="PrE-d8-4hA"/>
+                        </connections>
                     </view>
                     <tabBarItem key="tabBarItem" title="Galeria" image="gallery_2-128.png" id="lrd-Xr-zMg"/>
+                    <connections>
+                        <outlet property="imageview" destination="5Xk-lf-l8J" id="da9-lR-v9g"/>
+                        <outlet property="label" destination="zIV-NM-R3L" id="hba-5v-2UL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NAL-kU-8K5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="kwk-B9-5M1">
+                    <connections>
+                        <action selector="Left:" destination="Vef-5c-A4d" id="4tA-Yx-8Hg"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="X1C-cw-kHM">
+                    <connections>
+                        <action selector="Right:" destination="Vef-5c-A4d" id="FxP-OA-rti"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="801" y="974"/>
+            <point key="canvasLocation" x="800.79999999999995" y="973.76311844077964"/>
         </scene>
         <!--Mapa-->
         <scene sceneID="loG-Ud-NMW">
