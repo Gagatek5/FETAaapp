@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		2B1115661DE0B67E0015C9CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1115651DE0B67E0015C9CA /* AppDelegate.swift */; };
-		2B1115681DE0B67E0015C9CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1115671DE0B67E0015C9CA /* ViewController.swift */; };
 		2B11156B1DE0B67E0015C9CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115691DE0B67E0015C9CA /* Main.storyboard */; };
 		2B11156E1DE0B67E0015C9CA /* FETAapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B11156C1DE0B67E0015C9CA /* FETAapp.xcdatamodeld */; };
 		2B1115701DE0B67E0015C9CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B11156F1DE0B67E0015C9CA /* Assets.xcassets */; };
 		2B1115731DE0B67E0015C9CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115711DE0B67E0015C9CA /* LaunchScreen.storyboard */; };
 		2B11157E1DE0B67E0015C9CA /* FETAappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B11157D1DE0B67E0015C9CA /* FETAappTests.swift */; };
 		2B1115891DE0B67E0015C9CA /* FETAappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1115881DE0B67E0015C9CA /* FETAappUITests.swift */; };
+		2B11159A1DE0B7CA0015C9CA /* 465628_about_256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115991DE0B7CA0015C9CA /* 465628_about_256x256.png */; };
+		2B11159C1DE0B7D00015C9CA /* gallery_2-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B11159B1DE0B7D00015C9CA /* gallery_2-128.png */; };
+		2B11159E1DE0B7D50015C9CA /* 137354-200.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B11159D1DE0B7D50015C9CA /* 137354-200.png */; };
+		2B1115A01DE0B7DC0015C9CA /* main-qimg-a9e09e7b54c9bba55f4ae4a95ba7a764.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B11159F1DE0B7DC0015C9CA /* main-qimg-a9e09e7b54c9bba55f4ae4a95ba7a764.png */; };
+		2B1115A41DE0B8E90015C9CA /* Map-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115A31DE0B8E90015C9CA /* Map-512.png */; };
+		2B1115A61DE0B9FD0015C9CA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1115A51DE0B9FD0015C9CA /* MapViewController.swift */; };
+		2B1115A81DE0BAFF0015C9CA /* TimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1115A71DE0BAFF0015C9CA /* TimeTableViewController.swift */; };
+		2B1115AA1DE0BB3A0015C9CA /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1115A91DE0BB3A0015C9CA /* GalleryViewController.swift */; };
+		2B1115AC1DE0BB830015C9CA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1115AB1DE0BB830015C9CA /* SettingsViewController.swift */; };
+		2B1115B01DE0D0EE0015C9CA /* sss.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115AF1DE0D0EE0015C9CA /* sss.png */; };
+		2B1115B21DE0F9470015C9CA /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1115B11DE0F9470015C9CA /* DB.swift */; };
+		2B1115B41DE1309F0015C9CA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1115B31DE1309F0015C9CA /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +48,6 @@
 /* Begin PBXFileReference section */
 		2B1115621DE0B67E0015C9CA /* FETAapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FETAapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1115651DE0B67E0015C9CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B1115671DE0B67E0015C9CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B11156A1DE0B67E0015C9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B11156D1DE0B67E0015C9CA /* FETAapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FETAapp.xcdatamodel; sourceTree = "<group>"; };
 		2B11156F1DE0B67E0015C9CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +59,18 @@
 		2B1115841DE0B67E0015C9CA /* FETAappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FETAappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1115881DE0B67E0015C9CA /* FETAappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FETAappUITests.swift; sourceTree = "<group>"; };
 		2B11158A1DE0B67E0015C9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1115991DE0B7CA0015C9CA /* 465628_about_256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 465628_about_256x256.png; sourceTree = "<group>"; };
+		2B11159B1DE0B7D00015C9CA /* gallery_2-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gallery_2-128.png"; sourceTree = "<group>"; };
+		2B11159D1DE0B7D50015C9CA /* 137354-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "137354-200.png"; sourceTree = "<group>"; };
+		2B11159F1DE0B7DC0015C9CA /* main-qimg-a9e09e7b54c9bba55f4ae4a95ba7a764.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-qimg-a9e09e7b54c9bba55f4ae4a95ba7a764.png"; sourceTree = "<group>"; };
+		2B1115A31DE0B8E90015C9CA /* Map-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map-512.png"; sourceTree = "<group>"; };
+		2B1115A51DE0B9FD0015C9CA /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2B1115A71DE0BAFF0015C9CA /* TimeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableViewController.swift; sourceTree = "<group>"; };
+		2B1115A91DE0BB3A0015C9CA /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		2B1115AB1DE0BB830015C9CA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2B1115AF1DE0D0EE0015C9CA /* sss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sss.png; sourceTree = "<group>"; };
+		2B1115B11DE0F9470015C9CA /* DB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		2B1115B31DE1309F0015C9CA /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +101,7 @@
 		2B1115591DE0B67E0015C9CA = {
 			isa = PBXGroup;
 			children = (
+				2B1115961DE0B77B0015C9CA /* Images */,
 				2B1115641DE0B67E0015C9CA /* FETAapp */,
 				2B11157C1DE0B67E0015C9CA /* FETAappTests */,
 				2B1115871DE0B67E0015C9CA /* FETAappUITests */,
@@ -100,12 +123,17 @@
 			isa = PBXGroup;
 			children = (
 				2B1115651DE0B67E0015C9CA /* AppDelegate.swift */,
-				2B1115671DE0B67E0015C9CA /* ViewController.swift */,
 				2B1115691DE0B67E0015C9CA /* Main.storyboard */,
+				2B1115B31DE1309F0015C9CA /* DetailViewController.swift */,
+				2B1115A71DE0BAFF0015C9CA /* TimeTableViewController.swift */,
+				2B1115AB1DE0BB830015C9CA /* SettingsViewController.swift */,
+				2B1115A91DE0BB3A0015C9CA /* GalleryViewController.swift */,
+				2B1115A51DE0B9FD0015C9CA /* MapViewController.swift */,
 				2B11156F1DE0B67E0015C9CA /* Assets.xcassets */,
 				2B1115711DE0B67E0015C9CA /* LaunchScreen.storyboard */,
 				2B1115741DE0B67E0015C9CA /* Info.plist */,
 				2B11156C1DE0B67E0015C9CA /* FETAapp.xcdatamodeld */,
+				2B1115B11DE0F9470015C9CA /* DB.swift */,
 			);
 			path = FETAapp;
 			sourceTree = "<group>";
@@ -126,6 +154,19 @@
 				2B11158A1DE0B67E0015C9CA /* Info.plist */,
 			);
 			path = FETAappUITests;
+			sourceTree = "<group>";
+		};
+		2B1115961DE0B77B0015C9CA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2B11159B1DE0B7D00015C9CA /* gallery_2-128.png */,
+				2B1115A31DE0B8E90015C9CA /* Map-512.png */,
+				2B11159D1DE0B7D50015C9CA /* 137354-200.png */,
+				2B11159F1DE0B7DC0015C9CA /* main-qimg-a9e09e7b54c9bba55f4ae4a95ba7a764.png */,
+				2B1115991DE0B7CA0015C9CA /* 465628_about_256x256.png */,
+				2B1115AF1DE0D0EE0015C9CA /* sss.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +276,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1115B01DE0D0EE0015C9CA /* sss.png in Resources */,
+				2B11159E1DE0B7D50015C9CA /* 137354-200.png in Resources */,
+				2B1115A41DE0B8E90015C9CA /* Map-512.png in Resources */,
 				2B1115731DE0B67E0015C9CA /* LaunchScreen.storyboard in Resources */,
+				2B11159A1DE0B7CA0015C9CA /* 465628_about_256x256.png in Resources */,
 				2B1115701DE0B67E0015C9CA /* Assets.xcassets in Resources */,
 				2B11156B1DE0B67E0015C9CA /* Main.storyboard in Resources */,
+				2B11159C1DE0B7D00015C9CA /* gallery_2-128.png in Resources */,
+				2B1115A01DE0B7DC0015C9CA /* main-qimg-a9e09e7b54c9bba55f4ae4a95ba7a764.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +310,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B11156E1DE0B67E0015C9CA /* FETAapp.xcdatamodeld in Sources */,
-				2B1115681DE0B67E0015C9CA /* ViewController.swift in Sources */,
+				2B1115AC1DE0BB830015C9CA /* SettingsViewController.swift in Sources */,
 				2B1115661DE0B67E0015C9CA /* AppDelegate.swift in Sources */,
+				2B1115AA1DE0BB3A0015C9CA /* GalleryViewController.swift in Sources */,
+				2B1115A61DE0B9FD0015C9CA /* MapViewController.swift in Sources */,
+				2B1115A81DE0BAFF0015C9CA /* TimeTableViewController.swift in Sources */,
+				2B1115B21DE0F9470015C9CA /* DB.swift in Sources */,
+				2B1115B41DE1309F0015C9CA /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
