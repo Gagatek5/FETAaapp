@@ -11,6 +11,7 @@ import UIKit
 class TimeTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
         var cellTag:Int = 10
     
+    @IBOutlet weak var tableView: UITableView!
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
@@ -34,13 +35,15 @@ class TimeTableViewController: UIViewController, UITableViewDelegate, UITableVie
         cell.detailTextLabel?.font = UIFont(name:"HelveticaNeue-Bold", size: 16.0)
         cell.textLabel?.textColor = UIColor.white
         cell.detailTextLabel?.textColor = UIColor.white
-        cell.backgroundColor = UIColor.gray
+        cell.backgroundColor = UIColor.darkGray
         //cell.layer.cornerRadius=10 //set corner radius here
         //cell.layer.borderColor = UIColor.blue.cgColor  // set cell border color here
         //cell.layer.borderWidth = 2 // set border width here
         cell.textLabel?.textAlignment = .left
         cell.detailTextLabel?.textAlignment = .right
         cell.tag = indexPath.row
+        
+
        
         
         //cell.detailTextLabel?.text = value[indexPath.row][indexPath.row]
@@ -55,7 +58,7 @@ class TimeTableViewController: UIViewController, UITableViewDelegate, UITableVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      
+      tableView.backgroundColor = UIColor.darkGray
        
         
        

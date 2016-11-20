@@ -23,7 +23,6 @@
 		2B1115A81DE0BAFF0015C9CA /* TimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1115A71DE0BAFF0015C9CA /* TimeTableViewController.swift */; };
 		2B1115AA1DE0BB3A0015C9CA /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1115A91DE0BB3A0015C9CA /* GalleryViewController.swift */; };
 		2B1115AC1DE0BB830015C9CA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1115AB1DE0BB830015C9CA /* SettingsViewController.swift */; };
-		2B1115B01DE0D0EE0015C9CA /* sss.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115AF1DE0D0EE0015C9CA /* sss.png */; };
 		2B1115B21DE0F9470015C9CA /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1115B11DE0F9470015C9CA /* DB.swift */; };
 		2B1115B41DE1309F0015C9CA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1115B31DE1309F0015C9CA /* DetailViewController.swift */; };
 		2B1115BB1DE14A480015C9CA /* Image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115B51DE14A480015C9CA /* Image1.jpg */; };
@@ -32,6 +31,9 @@
 		2B1115BE1DE14A480015C9CA /* Image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115B81DE14A480015C9CA /* Image4.jpg */; };
 		2B1115BF1DE14A480015C9CA /* Image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115B91DE14A480015C9CA /* Image5.jpg */; };
 		2B1115C01DE14A480015C9CA /* Image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115BA1DE14A480015C9CA /* Image6.jpg */; };
+		2B1115C21DE157AC0015C9CA /* FETA_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115C11DE157AC0015C9CA /* FETA_logo.png */; };
+		2B8148761DE16E8F007272B9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8148751DE16E8F007272B9 /* MapKit.framework */; };
+		2B8148781DE16EC5007272B9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8148771DE16EC5007272B9 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,7 +76,6 @@
 		2B1115A71DE0BAFF0015C9CA /* TimeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableViewController.swift; sourceTree = "<group>"; };
 		2B1115A91DE0BB3A0015C9CA /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		2B1115AB1DE0BB830015C9CA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		2B1115AF1DE0D0EE0015C9CA /* sss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sss.png; sourceTree = "<group>"; };
 		2B1115B11DE0F9470015C9CA /* DB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
 		2B1115B31DE1309F0015C9CA /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		2B1115B51DE14A480015C9CA /* Image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image1.jpg; sourceTree = "<group>"; };
@@ -83,6 +84,9 @@
 		2B1115B81DE14A480015C9CA /* Image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image4.jpg; sourceTree = "<group>"; };
 		2B1115B91DE14A480015C9CA /* Image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image5.jpg; sourceTree = "<group>"; };
 		2B1115BA1DE14A480015C9CA /* Image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image6.jpg; sourceTree = "<group>"; };
+		2B1115C11DE157AC0015C9CA /* FETA_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FETA_logo.png; sourceTree = "<group>"; };
+		2B8148751DE16E8F007272B9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2B8148771DE16EC5007272B9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8148781DE16EC5007272B9 /* CoreLocation.framework in Frameworks */,
+				2B8148761DE16E8F007272B9 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,11 +119,11 @@
 		2B1115591DE0B67E0015C9CA = {
 			isa = PBXGroup;
 			children = (
-				2B1115961DE0B77B0015C9CA /* Images */,
 				2B1115641DE0B67E0015C9CA /* FETAapp */,
 				2B11157C1DE0B67E0015C9CA /* FETAappTests */,
 				2B1115871DE0B67E0015C9CA /* FETAappUITests */,
 				2B1115631DE0B67E0015C9CA /* Products */,
+				2B8148741DE16E8F007272B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +140,7 @@
 		2B1115641DE0B67E0015C9CA /* FETAapp */ = {
 			isa = PBXGroup;
 			children = (
+				2B1115961DE0B77B0015C9CA /* Images */,
 				2B1115651DE0B67E0015C9CA /* AppDelegate.swift */,
 				2B1115691DE0B67E0015C9CA /* Main.storyboard */,
 				2B1115B31DE1309F0015C9CA /* DetailViewController.swift */,
@@ -176,15 +183,25 @@
 				2B11159D1DE0B7D50015C9CA /* 137354-200.png */,
 				2B11159F1DE0B7DC0015C9CA /* main-qimg-a9e09e7b54c9bba55f4ae4a95ba7a764.png */,
 				2B1115991DE0B7CA0015C9CA /* 465628_about_256x256.png */,
-				2B1115AF1DE0D0EE0015C9CA /* sss.png */,
 				2B1115B51DE14A480015C9CA /* Image1.jpg */,
 				2B1115B61DE14A480015C9CA /* Image2.jpg */,
 				2B1115B71DE14A480015C9CA /* Image3.jpg */,
 				2B1115B81DE14A480015C9CA /* Image4.jpg */,
 				2B1115B91DE14A480015C9CA /* Image5.jpg */,
 				2B1115BA1DE14A480015C9CA /* Image6.jpg */,
+				2B1115C11DE157AC0015C9CA /* FETA_logo.png */,
 			);
 			name = Images;
+			path = /Users/tomasztwardowski/Desktop/FetaMeta/gda_salka_black/FETAapp;
+			sourceTree = "<absolute>";
+		};
+		2B8148741DE16E8F007272B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B8148771DE16EC5007272B9 /* CoreLocation.framework */,
+				2B8148751DE16E8F007272B9 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,13 +266,22 @@
 		2B11155A1DE0B67E0015C9CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Tomasz Twardowski";
 				TargetAttributes = {
 					2B1115611DE0B67E0015C9CA = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 78H32WXMW2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					2B1115781DE0B67E0015C9CA = {
 						CreatedOnToolsVersion = 8.0;
@@ -294,7 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B1115B01DE0D0EE0015C9CA /* sss.png in Resources */,
+				2B1115C21DE157AC0015C9CA /* FETA_logo.png in Resources */,
 				2B11159E1DE0B7D50015C9CA /* 137354-200.png in Resources */,
 				2B1115A41DE0B8E90015C9CA /* Map-512.png in Resources */,
 				2B1115731DE0B67E0015C9CA /* LaunchScreen.storyboard in Resources */,
@@ -490,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78H32WXMW2;
 				INFOPLIST_FILE = FETAapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tom.io.FETAapp;
@@ -502,6 +529,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78H32WXMW2;
 				INFOPLIST_FILE = FETAapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tom.io.FETAapp;
