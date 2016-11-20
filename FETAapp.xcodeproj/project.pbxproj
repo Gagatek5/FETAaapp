@@ -34,6 +34,10 @@
 		2B1115C21DE157AC0015C9CA /* FETA_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1115C11DE157AC0015C9CA /* FETA_logo.png */; };
 		2B8148761DE16E8F007272B9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8148751DE16E8F007272B9 /* MapKit.framework */; };
 		2B8148781DE16EC5007272B9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8148771DE16EC5007272B9 /* CoreLocation.framework */; };
+		2B81487A1DE175C0007272B9 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8148791DE175C0007272B9 /* AboutViewController.swift */; };
+		2B81487C1DE17C8F007272B9 /* butts.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B81487B1DE17C8F007272B9 /* butts.png */; };
+		2B81487F1DE17D11007272B9 /* ENG.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B81487D1DE17D11007272B9 /* ENG.png */; };
+		2B8148801DE17D11007272B9 /* pl.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B81487E1DE17D11007272B9 /* pl.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +91,10 @@
 		2B1115C11DE157AC0015C9CA /* FETA_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FETA_logo.png; sourceTree = "<group>"; };
 		2B8148751DE16E8F007272B9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2B8148771DE16EC5007272B9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2B8148791DE175C0007272B9 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		2B81487B1DE17C8F007272B9 /* butts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = butts.png; path = ../../../../Downloads/butts.png; sourceTree = "<group>"; };
+		2B81487D1DE17D11007272B9 /* ENG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ENG.png; path = ../../../../Downloads/ENG.png; sourceTree = "<group>"; };
+		2B81487E1DE17D11007272B9 /* pl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pl.png; path = ../../../../Downloads/pl.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +151,7 @@
 				2B1115961DE0B77B0015C9CA /* Images */,
 				2B1115651DE0B67E0015C9CA /* AppDelegate.swift */,
 				2B1115691DE0B67E0015C9CA /* Main.storyboard */,
+				2B8148791DE175C0007272B9 /* AboutViewController.swift */,
 				2B1115B31DE1309F0015C9CA /* DetailViewController.swift */,
 				2B1115A71DE0BAFF0015C9CA /* TimeTableViewController.swift */,
 				2B1115AB1DE0BB830015C9CA /* SettingsViewController.swift */,
@@ -184,12 +193,15 @@
 				2B11159F1DE0B7DC0015C9CA /* main-qimg-a9e09e7b54c9bba55f4ae4a95ba7a764.png */,
 				2B1115991DE0B7CA0015C9CA /* 465628_about_256x256.png */,
 				2B1115B51DE14A480015C9CA /* Image1.jpg */,
+				2B81487D1DE17D11007272B9 /* ENG.png */,
+				2B81487E1DE17D11007272B9 /* pl.png */,
 				2B1115B61DE14A480015C9CA /* Image2.jpg */,
 				2B1115B71DE14A480015C9CA /* Image3.jpg */,
 				2B1115B81DE14A480015C9CA /* Image4.jpg */,
 				2B1115B91DE14A480015C9CA /* Image5.jpg */,
 				2B1115BA1DE14A480015C9CA /* Image6.jpg */,
 				2B1115C11DE157AC0015C9CA /* FETA_logo.png */,
+				2B81487B1DE17C8F007272B9 /* butts.png */,
 			);
 			name = Images;
 			path = /Users/tomasztwardowski/Desktop/FetaMeta/gda_salka_black/FETAapp;
@@ -324,6 +336,7 @@
 				2B11159E1DE0B7D50015C9CA /* 137354-200.png in Resources */,
 				2B1115A41DE0B8E90015C9CA /* Map-512.png in Resources */,
 				2B1115731DE0B67E0015C9CA /* LaunchScreen.storyboard in Resources */,
+				2B81487F1DE17D11007272B9 /* ENG.png in Resources */,
 				2B11159A1DE0B7CA0015C9CA /* 465628_about_256x256.png in Resources */,
 				2B1115BB1DE14A480015C9CA /* Image1.jpg in Resources */,
 				2B1115BC1DE14A480015C9CA /* Image2.jpg in Resources */,
@@ -334,7 +347,9 @@
 				2B11156B1DE0B67E0015C9CA /* Main.storyboard in Resources */,
 				2B1115BE1DE14A480015C9CA /* Image4.jpg in Resources */,
 				2B11159C1DE0B7D00015C9CA /* gallery_2-128.png in Resources */,
+				2B81487C1DE17C8F007272B9 /* butts.png in Resources */,
 				2B1115A01DE0B7DC0015C9CA /* main-qimg-a9e09e7b54c9bba55f4ae4a95ba7a764.png in Resources */,
+				2B8148801DE17D11007272B9 /* pl.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +377,7 @@
 				2B11156E1DE0B67E0015C9CA /* FETAapp.xcdatamodeld in Sources */,
 				2B1115AC1DE0BB830015C9CA /* SettingsViewController.swift in Sources */,
 				2B1115661DE0B67E0015C9CA /* AppDelegate.swift in Sources */,
+				2B81487A1DE175C0007272B9 /* AboutViewController.swift in Sources */,
 				2B1115AA1DE0BB3A0015C9CA /* GalleryViewController.swift in Sources */,
 				2B1115A61DE0B9FD0015C9CA /* MapViewController.swift in Sources */,
 				2B1115A81DE0BAFF0015C9CA /* TimeTableViewController.swift in Sources */,

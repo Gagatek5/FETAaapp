@@ -15,9 +15,14 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     var locationManager:CLLocationManager!
     //var mapView:MKMapView!
     
+    var venueLat = 54.341943
+    var venueLng = 18.647156
+    var venueName = "Plac Walowy"
+    
     @IBOutlet weak var map: MKMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        //openMapForPlace()
         
     }
 
@@ -71,12 +76,32 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         map.addAnnotation(myAnnotation)
     }
     
-    func locationManager(_ manager: CLLocationManager, didFailWithError error: NSError)
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error)
     {
         print("Error \(error)")
     }
     
-    
+    /*func openMapForPlace() {
+        
+        let lat1 = self.venueLat
+        let lng1 = self.venueLng
+        
+        let latitude:CLLocationDegrees =  lat1
+        let longitude:CLLocationDegrees =  lng1
+        
+        let regionDistance:CLLocationDistance = 10000
+        let coordinates = CLLocationCoordinate2DMake(latitude, longitude)
+        let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
+        let options = [
+            MKLaunchOptionsMapCenterKey: NSValue(mkCoordinate: regionSpan.center),
+            MKLaunchOptionsMapSpanKey: NSValue(mkCoordinateSpan: regionSpan.span)
+        ]
+        let placemark = MKPlacemark(coordinate: coordinates, addressDictionary: nil)
+        let mapItem = MKMapItem(placemark: placemark)
+        mapItem.name = "\(self.venueName)"
+        mapItem.openInMaps(launchOptions: options)
+        
+    }*/
 
     /*
     // MARK: - Navigation
